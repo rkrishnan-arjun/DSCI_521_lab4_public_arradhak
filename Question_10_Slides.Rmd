@@ -1,0 +1,66 @@
+---
+title: "Answer to Question 10, DSCI 521, Lab 4"
+subtitle: "with xaringan on R Studio"
+author: "Arjun Radhakrishnan"
+date: "October 1, 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+---
+class: center, middle
+
+Sample Slide - 1
+
+---
+class: inverse, center, middle
+
+Sample Slide - 2
+
+---
+This slide contains a code chunk.
+
+```{r}
+temps <- list(20.2, 22.3, 19.7, 25.0, 16.3)
+max <- temps[[1]]
+i <- 1
+for (temp in temps) {
+    if (max < temp){
+        max = temp
+    }
+    i <- i + 1
+}
+
+print(paste0(max, " is largest number in the list"))
+
+```
+
+
+---
+
+This slide contains a code chunk too!
+
+```{r}
+temps <- list(20.2, 22.3, 19.7, 25.0, 16.3)
+max <- temps[[1]]
+i <- 1
+for (temp in temps) {
+    if (max < temp){
+        max = temp
+    }
+    i <- i + 1
+}
+
+print(paste0(max, " is largest number in the list"))
+
+```
+
+
+---
