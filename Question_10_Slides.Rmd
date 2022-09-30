@@ -71,7 +71,7 @@ print(f"{max} is largest number in the list")
 ---
 class: center, middle
 
-I'm taking the slide to thank the teaching faculty and the TAs for this awesome course!  
+I'm taking this slide to thank the teaching faculty and the TAs for this awesome course!  
 
 --
 THANK YOU!
