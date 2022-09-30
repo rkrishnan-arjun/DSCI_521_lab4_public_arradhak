@@ -29,64 +29,82 @@ class: center, middle, inverse, title-slide
 ---
 
 
+This slide contains a code chunk which calculates the largest number of a list in R.
+
+
+```r
+temps &lt;- list(20.2, 22.3, 19.7, 25.0, 16.3)
+max &lt;- temps[[1]]
+i &lt;- 1
+for (temp in temps) {
+    if (max &lt; temp){
+        max = temp
+    }
+    i &lt;- i + 1
+}
+
+print(paste0(max, " is largest number in the list"))
+```
+
+```
+## [1] "25 is largest number in the list"
+```
+
+---
+
+This slide contains a code chunk which calculates the smallest number of a list in R.
+
+
+```r
+temps &lt;- list(20.2, 22.3, 19.7, 25.0, 16.3)
+min &lt;- temps[[1]]
+i &lt;- 1
+for (temp in temps) {
+    if (min &gt; temp){
+        min = temp
+    }
+    i &lt;- i + 1
+}
+
+print(paste0(min, " is smallest number in the list"))
+```
+
+```
+## [1] "16.3 is smallest number in the list"
+```
+
+
+---
+
+This slide contains a code chunk which calculates the largest number of a list in python.
+
+
+```python
+
+temps = [20.2, 22.3, 19.7, 25.0, 16.3]
+max = temps[0]
+i = 0
+for temp in temps:
+        if max &lt; temp:
+            max = temp
+        i = i + 1
+
+print(f"{max} is largest number in the list")
+```
+
+```
+## 25.0 is largest number in the list
+```
 
 
 ---
 class: center, middle
 
-Sample Slide - 1
+I'm taking the slide to thank the teaching faculty and the TAs for this awesome course!  
 
----
-class: inverse, center, middle
-
-Sample Slide - 2
-
----
-This slide contains a code chunk.
-
-
-```r
-temps &lt;- list(20.2, 22.3, 19.7, 25.0, 16.3)
-max &lt;- temps[[1]]
-i &lt;- 1
-for (temp in temps) {
-    if (max &lt; temp){
-        max = temp
-    }
-    i &lt;- i + 1
-}
-
-print(paste0(max, " is largest number in the list"))
-```
-
-```
-## [1] "25 is largest number in the list"
-```
-
-
----
-
-This slide contains a code chunk too!
-
-
-```r
-temps &lt;- list(20.2, 22.3, 19.7, 25.0, 16.3)
-max &lt;- temps[[1]]
-i &lt;- 1
-for (temp in temps) {
-    if (max &lt; temp){
-        max = temp
-    }
-    i &lt;- i + 1
-}
-
-print(paste0(max, " is largest number in the list"))
-```
-
-```
-## [1] "25 is largest number in the list"
-```
-
+--
+THANK YOU!
+--
 
 ---
     </textarea>
